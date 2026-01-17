@@ -1,0 +1,130 @@
+/* =====universal selector===== */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =====common css with google font=====  */
+.inter{
+  font-family: "Inter", sans-serif;
+  background-color: black;
+  color: white;
+}
+header{
+  max-width: 1036px;
+  margin: 30px auto 0 auto;
+}
+.btn{
+  background-color: #E6533C;
+  padding: 16px 46px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.02rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* =====header section styles===== */
+/* nav */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar>h3{
+  color: #E6533C;
+  font-weight: 800;
+}
+.nav-icon{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 47px;
+  border: 1px solid rgb(70, 69, 69);
+  border-radius: 25px;
+  padding: 12px 4px;
+  list-style: none;
+}
+.nav-btn{
+  background-color: #E6533C;
+  padding: 8px 20px;
+  border-radius: 25px;
+}
+
+.nav-icon>li a{
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: white;
+}
+
+/* banner */
+.banner-container{
+  display: flex;
+  align-items: center;
+}
+.banner-contant{
+  max-width: 600px;
+}
+.banner-contant>h1{
+  font-size: 4.8rem;
+}
+.banner-contant>p{
+  color: rgba(255, 255, 255, 0.5);
+  margin:28px 0 28px 0;
+}
+.dark-btn{
+  background-color: black;
+  border: 1px solid white;
+  margin-left: 14px;
+}
+.img-container{
+  width: 70%;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.img-container>img{
+
+  border: 2px solid red;
+}
+.img-container>.tooltip{
+  background-color: rgba(255, 255, 255, 0.295);
+  position: absolute;
+  padding: 17px 24px;
+  border-radius: 12px;
+  top: 50px;
+
+}
+.tooltiptwo{
+  display: flex;
+  gap: 12px;
+  padding: 20px 23px;
+}
+.circle{
+  height: 50px;
+  width: 50px;
+  background-color: #E6533C;
+  border-radius: 50px;
+}
+
+.img-container>.tooltip>h1{
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+.img-container>.tooltip>p{
+  color: #EFEDE8;
+}
+.img-container>.tooltiptwo{
+  background-color: rgba(255, 255, 255, 0.295);
+  position: absolute;
+  border-radius: 12px;
+}
+.img-container>.tooltiptwo>div>h1{
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+.img-container>.tooltiptwo>div>p{
+  color: #EFEDE8;
+}
+
+
