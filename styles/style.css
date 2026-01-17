@@ -11,7 +11,7 @@
   background-color: black;
   color: white;
 }
-header{
+header, main{
   max-width: 1036px;
   margin: 30px auto 0 auto;
 }
@@ -23,6 +23,15 @@ header{
   font-size: 1.02rem;
   border: none;
   cursor: pointer;
+}
+.text-gray{
+  color: rgba(255, 255, 255, 0.5);
+  margin:28px 0 28px 0;
+  line-height: 24px;
+}
+.text-bold{
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 /* =====header section styles===== */
@@ -75,10 +84,7 @@ header{
 .banner-contant>h1{
   font-size: 4.8rem;
 }
-.banner-contant>p{
-  color: rgba(255, 255, 255, 0.5);
-  margin:28px 0 28px 0;
-}
+
 .dark-btn{
   background-color: black;
   border: 1px solid white;
@@ -131,6 +137,49 @@ header{
 }
 .img-container>.tooltiptwo>div>p{
   color: #EFEDE8;
+}
+
+/* =====main section styles ()===== */
+/* habbit section */
+.habbit{
+  text-align: center;
+}
+.habbit-contant{
+  margin-top: 100px;
+  margin-bottom: 58px;
+}
+
+.habbit-cardbox{
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  gap: 40px;
+}
+.card img{
+  border-radius: 50%;
+}
+.card h5{
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+
+/* run section */
+.run{
+  background-color: #222222;
+  margin: 100px 0 100px 0;
+  display: flex;
+  border-radius: 18px;
+  align-items: center;
+}
+.run-contant{
+  margin: 31px 0 34px 54px;
+}
+
+.run img{
+  width: 50%;
+  border-radius: 18px;
+  margin: 30px;
 }
 
 
