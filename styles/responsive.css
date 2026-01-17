@@ -19,7 +19,7 @@
 .tooltip{
   padding: 14px 17px;
   top: 40px;
-  left: 200px;
+  left: 170px;
 }
 .tooltiptwo{
   gap: 12px;
@@ -40,10 +40,27 @@
   flex-direction: column;
 }
 
+.training-box{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.training-box .card-2{
+  grid-column: auto;
+}
+.training-box .card-4{
+  grid-column: auto;
+}
+.card-3, .card-6{
+  display: none;
+}
+.training-box .p4{
+  bottom: 150px;
+  left: 100px;
+
 }
 
 /* =====tablet device responsive styles ===== */
-@media screen and (min-width: 576px) and (max-width:992px){
+@media screen and (min-width: 577px) and (max-width:992px){
     /* common section */
   .text-bold{
   font-size: 2.5rem;

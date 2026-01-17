@@ -183,3 +183,77 @@ header, main{
 }
 
 
+/* training section */
+.training-box{
+  border: 2px solid tomato;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 200px);
+}
+.training-box .card-1{
+  background-color: #06FFD2;
+}
+.training-box .card-2{
+  background-color: #FF0000;
+  grid-column: 2/span 2;
+}
+.training-box .card-3{
+  background-color: #f78ee9;
+}
+.training-box .card-4{
+  background-color: #fcfd96;
+  grid-column: 1/span 2;
+}
+.training-box .card-5{
+  background-color: #42FF00;
+}
+.training-box .card-6{
+  background-color: #0047FF;
+}
+
+.training-box img{
+  height: 100%;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+.training-box div{
+  position: relative;
+}
+.training-box .p1{
+  position: absolute;
+  z-index: 50;
+  left: 20px;
+  top: 150px;
+}
+.training-box .p2{
+  position: absolute;
+  z-index: 50;
+  top: 20px;
+  left: 80px;
+}
+.training-box .p3{
+  position: absolute;
+  z-index: 50;
+  top: 160px;
+  right: 20px;
+}
+.training-box .p4{
+  position: absolute;
+  z-index: 50;
+  bottom: 120px;
+  left: 280px;
+}
+.training-box .p5{
+  position: absolute;
+  z-index: 50;
+  bottom: 20px;
+  left: 80px;
+}
+.training-box .p6{
+  position: absolute;
+  z-index: 50;
+  bottom: 20px;
+  right: 20px;
+}
+
+
