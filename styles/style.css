@@ -260,3 +260,75 @@ header, main{
 }
 
 
+/* meet section */
+.meet{
+  margin: 88px auto;
+}
+.meet-contant{
+  text-align: center;
+}
+.teem-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 326px);
+  gap: 20px;
+  padding: 20px;
+  background-color: #222222;
+  border-radius: 16px;
+}
+.teem-item{
+  position: relative;
+
+}
+.teem-item .hide-text1{
+  position: absolute;
+  z-index: 50;
+  left: 20px;
+  top: 250px;
+}
+.teem-item .hide-text2{
+  position: absolute;
+  z-index: 50;
+  left: 20px;
+  top: 250px;
+}
+.teem-item .hide-text3{
+  position: absolute;
+  z-index: 50;
+  left: 20px;
+  top: 250px;
+}
+.teem-item .hide-text4{
+  position: absolute;
+  z-index: 50;
+  left: 20px;
+  top: 250px;
+}
+.teem-item .hide-text5{
+  position: absolute;
+  z-index: 50;
+  left: 20px;
+  top: 250px;
+}
+.teem-item .hide-text6{
+  position: absolute;
+  z-index: 50;
+  left: 20px;
+  top: 250px;
+}
+.teem-grid div img{
+  height: 100%;
+  width: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+}
+.text-graytow{
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 3px;
+  line-height: 24px;
+}
+.text-boldtwo{
+  font-size: 1.2rem;
+}
+
+

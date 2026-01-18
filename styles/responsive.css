@@ -16,6 +16,9 @@
 .banner-container{
     flex-direction: column;
 }
+.banner-contant{
+  margin-left: 20px;
+}
 .tooltip{
   padding: 14px 17px;
   top: 200px;
@@ -30,15 +33,16 @@
   margin: 10px;
 }
 
-
-
-
 }
 
 
 /* =====mobile responsive styles===== */
 /* header section */
 @media screen and (max-width: 576px){
+  nav{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 .nav-icon{
     display: none;
 }
@@ -47,6 +51,9 @@
 }
 .banner-container{
     flex-direction: column;
+}
+.banner-contant{
+  text-align: center;
 }
 .banner-contant>h1{
     font-size: 2.8rem;
@@ -57,7 +64,7 @@
 .tooltip{
   padding: 14px 17px;
   top: 40px;
-  left: 170px;
+  left: 140px;
 }
 .tooltiptwo{
   gap: 12px;
@@ -66,6 +73,7 @@
   bottom: 230px;
 }
 /* main section */
+/* habbit */
 .text-bold{
   font-size: 2rem;
   font-weight: 900;
@@ -73,11 +81,11 @@
 .habbit-cardbox{
   grid-template-columns: repeat(1 , 1fr);
 }
-
+/* run */
 .run{
   flex-direction: column;
 }
-
+/* training */
 .training-box{
   grid-template-columns: repeat(2, 1fr);
 }
@@ -94,6 +102,15 @@
 .training-box .p4{
   bottom: 150px;
   left: 100px;
-
 }
+/* meet */
+.teem-grid{
+  grid-template-columns: repeat(2, 1fr);
+}
+.teem-item-hide{
+  display: none;
+}
+
+
+
 }
