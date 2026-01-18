@@ -1,3 +1,41 @@
+/* =====laptop device responsive styles===== */
+@media screen and (max-width: 1080px){
+
+}
+
+
+/* =====tablet device responsive styles ===== */
+@media screen and (max-width:992px){
+    /* common section */
+  .text-bold{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+  
+  /* header section  */
+.banner-container{
+    flex-direction: column;
+}
+.tooltip{
+  padding: 14px 17px;
+  top: 200px;
+  left: 50px;
+}
+/* main section */
+.habbit-cardbox{
+  grid-template-columns: repeat(2 , 1fr);
+}
+.run img{
+  width: 40%;
+  margin: 10px;
+}
+
+
+
+
+}
+
+
 /* =====mobile responsive styles===== */
 /* header section */
 @media screen and (max-width: 576px){
@@ -58,46 +96,4 @@
   left: 100px;
 
 }
-
-/* =====tablet device responsive styles ===== */
-@media screen and (min-width: 577px) and (max-width:992px){
-    /* common section */
-  .text-bold{
-  font-size: 2.5rem;
-  font-weight: 900;
-}
-  
-  /* header section  */
-.banner-container{
-    flex-direction: column;
-}
-.tooltip{
-  padding: 14px 17px;
-  top: 200px;
-  left: 50px;
-}
-/* main section */
-.habbit-cardbox{
-  grid-template-columns: repeat(2 , 1fr);
-}
-.run img{
-  width: 40%;
-  margin: 10px;
-}
-
-
-
-
-}
-
-
-
-
-
-
-
-
-/* =====laptop device responsive styles===== */
-@media screen and (min-width: 1080px){
-
 }
